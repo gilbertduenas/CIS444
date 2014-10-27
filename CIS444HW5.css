@@ -1,0 +1,14 @@
+html{
+  height: 90%;
+}
+
+body {
+  min-height: 90%;
+}
+
+.picture{
+    height:200px;
+    width:200px;
+    position:relative;
+    visibility:hidden;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>CIS 444 HW 4</title>	
+  <link rel='stylesheet' href='CIS444HW4.css'/>
+  <meta charset="utf-8" />
+</head>
+<body>
+  <h1>Buying fruit!</h1>
+  <form id='fruitForm' onsubmit='calculateTotal(); return false;'>
+  <p class='appleInput'>
+    <label for='apple'>Apple 59 cents</label>
+    <input type='text' id='apple' onchange = 'checkInput();' />
+    <br />
+  </p>
+  <p class='orangeInput'> 
+    <label for='orange'>Orange 49 cents</label>
+    <input type='text' id='orange' onchange = 'checkInput();' />
+    <br />
+  </p>
+  <p class='bananaInput'> 
+    <label for='banana'>Banana 39 cents</label>
+    <input type='text' id='banana' onchange = 'checkInput();' />
+  </p>
+  <p>
+    <input type='submit' id='submit'>
+  </p>
+  </form>
+  <script type='text/javascript' src='CIS444HW4.js'></script>
+</body>
+</html>
