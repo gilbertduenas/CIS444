@@ -3,8 +3,12 @@ CIS444
 
 Web Programming
 
-HW1 - 
+HW1 - Create a table in html.
 
-HW - 
+HW2 - Create a list with html and css.
 
-HW - 
+HW3 - Create a list of fibonacci numbers with Javascript.
+
+HW4 - Calculate totals using Javascript.
+
+HW5 - Display an image using Javascript.
