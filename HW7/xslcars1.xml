@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xslcars1.xsl" ?>
+
+<car>
+	<make>Lamborghini</make>
+	<model>Huracan</model>
+	<year>2014</year>
+	<color>red</color>
+	<engine>
+		<number_of_cylinders>12</number_of_cylinders>
+		<fuel_system>fuel injected</fuel_system>
+	</engine>
+	<number_of_doors>2</number_of_doors>
+	<transmission_type>manual</transmission_type>
+	<accessories>
+		<radio>yes</radio>
+		<air_conditioning>yes</air_conditioning>
+		<power_windows>yes</power_windows>
+		<power_steering>yes</power_steering>
+		<power_brakes>yes</power_brakes>
+	</accessories>
+</car>

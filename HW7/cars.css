@@ -1,0 +1,25 @@
+car {
+	display: block;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+make, model, year {
+	margin-left: 5px;
+	font-size: 18pt;
+	color: black;
+}
+
+color, number_of_doors, transmission_type{
+	display: block;
+	margin-left: 15px;
+	font-size: 12pt;
+	color: blue;
+}
+
+engine *, accessories *{
+	display: block;
+	margin-left: 30px;
+	font-size: 12pt;
+	color: red;
+}

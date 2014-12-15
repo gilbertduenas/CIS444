@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xslcarsMulti.xsl" ?>
+
+<catalog>
+	<car>
+		<make>Lamborghini</make>
+		<model>Huracan</model>
+		<year>2014</year>
+		<color>red</color>
+		<engine>
+			<number_of_cylinders>12</number_of_cylinders>
+			<fuel_system>fuel injected</fuel_system>
+		</engine>
+		<number_of_doors>2</number_of_doors>
+		<transmission_type>manual</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>
+
+	<car>
+		<make>Honda</make>
+		<model>Civic</model>
+		<year>2000</year>
+		<color>green</color>
+		<engine>
+			<number_of_cylinders>4</number_of_cylinders>
+			<fuel_system>fuel injected</fuel_system>
+		</engine>
+		<number_of_doors>4</number_of_doors>
+		<transmission_type>automatic</transmission_type>
+		<accessories>
+			<radio>no</radio>
+			<air_conditioning>no</air_conditioning>
+			<power_windows>no</power_windows>
+			<power_steering>no</power_steering>
+			<power_brakes>no</power_brakes>
+		</accessories>
+	</car>
+
+	<car>
+		<make>Ferrari</make>
+		<model>F12 Berlinetta</model>
+		<year>2013</year>
+		<color>yellow</color>
+		<engine>
+			<number_of_cylinders>12</number_of_cylinders>
+			<fuel_system>fuel injected</fuel_system>
+		</engine>
+		<number_of_doors>2</number_of_doors>
+		<transmission_type>manual</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>
+</catalog>

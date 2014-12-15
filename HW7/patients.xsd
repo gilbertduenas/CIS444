@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="patientSchema"
+xmlns="patientSchema"
+elementFormDefault="qualified">
+	<xsd:complexType name="hospital">
+		<xsd:sequence>
+			<xsd:complexType name="patient" maxOccurs="unbounded">
+				<xsd:sequence>
+					<xsd:element name="firstName" type="xsd:string" />
+					<xsd:element name="middleName" type="xsd:string" />
+					<xsd:element name="lastName" type="xsd:string" />		
+					<xsd:element name="ssn" type="xsd:positiveInteger" />
+					<xsd:element name="age" type="xsd:positiveInteger" />
+					<xsd:element name="room" type="xsd:positiveInteger" />
+					<xsd:complexType name="insurance1">
+						<xsd:sequence>
+							<xsd:element name="memberID1" type="xsd:positiveInteger" />
+							<xsd:element name="groupNumber1" type="xsd:positiveInteger" />
+							<xsd:element name="phoneNumber1" type="xsd:positiveInteger" />
+							<xsd:element name="address1" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+					<xsd:complexType name="insurance2">
+						<xsd:sequence>
+							<xsd:element name="memberID2" type="xsd:positiveInteger" />
+							<xsd:element name="groupNumber2" type="xsd:positiveInteger" />
+							<xsd:element name="phoneNumber2" type="xsd:positiveInteger" />
+							<xsd:element name="address2" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+					<xsd:element name="knownMedical" type="xsd:string" />
+					<xsd:element name="knownAllergy" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
